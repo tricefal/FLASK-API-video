@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-.vscode/
-local-py-env/
-__pycache__/
-.env
-=======
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -133,4 +128,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
->>>>>>> b4097bb (Initial commit)
