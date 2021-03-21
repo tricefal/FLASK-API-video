@@ -10,6 +10,9 @@ class Video(Resource):
     def get(self, video_id):
         return videos[video_id]
 
+    def put(self, video_id):
+        pass
+
 api.add_resource(Video, "/video/<int:video_id>")
 
 if __name__ == "__main__":
