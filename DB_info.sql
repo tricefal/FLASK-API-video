@@ -9,7 +9,15 @@ create table video_info (
 );
 
 insert into video_info (title) 
+<<<<<<< HEAD
 values ('Intégral de Cabrel'),
 ('Comment construire une chaise à bascule'),
 ('API REST avec Flask');
 
+=======
+values (
+	"Intégral de Cabrel",
+	"Comment construire une chaise à bascule",
+	"API REST avec Flask"
+);
+>>>>>>> 571f5ef (Changed from venv + pip to pipenv)

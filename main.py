@@ -1,5 +1,11 @@
 from flask import Flask, request
+<<<<<<< HEAD
 from flask_restful import Api, Resource, reqparse, fields, marshal_with
+=======
+from flask_restful import Api, Resource, reqparse
+
+
+>>>>>>> 571f5ef (Changed from venv + pip to pipenv)
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
@@ -7,6 +13,7 @@ api = Api(app)
 app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:postgres@localhost:5432/BDD_Video"
 db = SQLAlchemy(app)
 # db.
+<<<<<<< HEAD
 videos = {}
 
 
@@ -54,8 +61,36 @@ class Video_api(Resource):
             result = Video_info.query.order_by(Video_info.id).all()
         return result
 
+=======
+# videos = {}
+
+
+class Video(Resource):
+    def __init__(self):
+        self.videos_args = reqparse.RequestParser()
+        self.videos_args.add_argument(
+            "title", type=str, help="Name of the video is required", required=True)
+        self.videos_args.add_argument(
+            "views", type=int, help="Name of the video is required", default=0)
+        self.videos_args.add_argument(
+            "likes", type=int, help="Name of the video is required", default=0)
+
+    # CREATE
+    def post(self):
+        pass
+
+    # READ
+    def get(self, video_id):
+        return videos[video_id]
+
+>>>>>>> 571f5ef (Changed from venv + pip to pipenv)
     # UPDATE
     def put(self, video_id):
+        videos[video_id] = request.form['likes']
+        return videos
+
+    # DELETE
+    def delete(self, video_id):
         pass
         # videos[video_id] = request.form['likes']
         # return videos
@@ -65,7 +100,12 @@ class Video_api(Resource):
         pass
 
 
+<<<<<<< HEAD
 api.add_resource(Video_api, "/video/", "/video/<int:video_id>")
+=======
+
+api.add_resource(Video, "/video/<int:video_id>")
+>>>>>>> 571f5ef (Changed from venv + pip to pipenv)
 
 if __name__ == "__main__":
     app.run(debug=True)
