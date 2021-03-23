@@ -133,4 +133,7 @@ dmypy.json
 .vscode/
 local-py-env/
 __pycache__/
+<<<<<<< HEAD
 .env
+=======
+>>>>>>> develop
