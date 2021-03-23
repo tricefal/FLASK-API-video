@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "929a393ef398088f6c7f067eb22debfed78921c2377d991bc51f5fa8ddbfa137"
+            "sha256": "ad24c3aff8931df31268be4355a1125406df32b9b368443bfd9c1ad2c9d2d1f3"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -24,7 +24,6 @@
             "index": "pypi",
             "version": "==9.0.1"
         },
-<<<<<<< HEAD
         "attrs": {
             "hashes": [
                 "sha256:31b2eced602aa8423c2aea9c76a724617ed67cf9513173fd3a4f03e3a929c7e6",
@@ -33,8 +32,6 @@
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==20.3.0"
         },
-=======
->>>>>>> 571f5ef (Changed from venv + pip to pipenv)
         "autopep8": {
             "hashes": [
                 "sha256:5454e6e9a3d02aae38f866eec0d9a7de4ab9f93c10a273fb0340f3d6d09f7514",
@@ -91,7 +88,6 @@
             "index": "pypi",
             "version": "==1.1.2"
         },
-<<<<<<< HEAD
         "flask-blueprint": {
             "hashes": [
                 "sha256:deb67594014c7dce1f0741317a942442f2791c1c4950e43c235f518e2dc4ed42"
@@ -99,8 +95,6 @@
             "index": "pypi",
             "version": "==1.3.0"
         },
-=======
->>>>>>> 571f5ef (Changed from venv + pip to pipenv)
         "flask-restful": {
             "hashes": [
                 "sha256:5ea9a5991abf2cb69b4aac19793faac6c032300505b325687d7c305ffaa76915",
@@ -174,7 +168,6 @@
             "index": "pypi",
             "version": "==2.10"
         },
-<<<<<<< HEAD
         "iniconfig": {
             "hashes": [
                 "sha256:011e24c64b7f47f6ebd835bb12a743f2fbe9a26d4cecaa7f53bc4f35ee9da8b3",
@@ -182,8 +175,6 @@
             ],
             "version": "==1.1.1"
         },
-=======
->>>>>>> 571f5ef (Changed from venv + pip to pipenv)
         "ipykernel": {
             "hashes": [
                 "sha256:98321abefdf0505fb3dc7601f60fc4087364d394bd8fad53107eb1adee9ff475",
@@ -306,7 +297,6 @@
             "index": "pypi",
             "version": "==1.1.1"
         },
-<<<<<<< HEAD
         "packaging": {
             "hashes": [
                 "sha256:5b327ac1320dc863dca72f4514ecc086f31186744b84a230374cc1fd776feae5",
@@ -315,8 +305,6 @@
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==20.9"
         },
-=======
->>>>>>> 571f5ef (Changed from venv + pip to pipenv)
         "parso": {
             "hashes": [
                 "sha256:15b00182f472319383252c18d5913b69269590616c947747bc50bf4ac768f410",
@@ -341,7 +329,6 @@
             "index": "pypi",
             "version": "==0.7.5"
         },
-<<<<<<< HEAD
         "pluggy": {
             "hashes": [
                 "sha256:15b2acde666561e1298d71b523007ed7364de07029219b604cf808bfa1c765b0",
@@ -350,8 +337,6 @@
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==0.13.1"
         },
-=======
->>>>>>> 571f5ef (Changed from venv + pip to pipenv)
         "prompt-toolkit": {
             "hashes": [
                 "sha256:4cea7d09e46723885cb8bc54678175453e5071e9449821dce6f017b1d1fbfc1a",
@@ -360,7 +345,6 @@
             "index": "pypi",
             "version": "==3.0.17"
         },
-<<<<<<< HEAD
         "psycopg2": {
             "hashes": [
                 "sha256:00195b5f6832dbf2876b8bf77f12bdce648224c89c880719c745b90515233301",
@@ -382,8 +366,6 @@
             "index": "pypi",
             "version": "==2.8.6"
         },
-=======
->>>>>>> 571f5ef (Changed from venv + pip to pipenv)
         "ptyprocess": {
             "hashes": [
                 "sha256:4b41f3967fce3af57cc7e94b888626c18bf37a083e3651ca8feeb66d492fef35",
@@ -392,7 +374,6 @@
             "index": "pypi",
             "version": "==0.7.0"
         },
-<<<<<<< HEAD
         "py": {
             "hashes": [
                 "sha256:21b81bda15b66ef5e1a777a21c4dcd9c20ad3efd0b3f817e7a809035269e1bd3",
@@ -401,8 +382,6 @@
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==1.10.0"
         },
-=======
->>>>>>> 571f5ef (Changed from venv + pip to pipenv)
         "pycodestyle": {
             "hashes": [
                 "sha256:514f76d918fcc0b55c6680472f0a37970994e07bbb80725808c17089be302068",
@@ -419,7 +398,6 @@
             "index": "pypi",
             "version": "==2.8.1"
         },
-<<<<<<< HEAD
         "pyparsing": {
             "hashes": [
                 "sha256:c203ec8783bf771a155b207279b9bccb8dea02d8f0c9e5f8ead507bc3246ecc1",
@@ -436,8 +414,6 @@
             "index": "pypi",
             "version": "==6.2.2"
         },
-=======
->>>>>>> 571f5ef (Changed from venv + pip to pipenv)
         "python-dateutil": {
             "hashes": [
                 "sha256:73ebfe9dbf22e832286dafa60473e4cd239f8592f699aa5adaf10050e6e1823c",
