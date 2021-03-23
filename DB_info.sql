@@ -9,8 +9,7 @@ create table video_info (
 );
 
 insert into video_info (title) 
-values (
-	"Intégral de Cabrel",
-	"Comment construire une chaise à bascule",
-	"API REST avec Flask"
-);
+values ('Intégral de Cabrel'),
+('Comment construire une chaise à bascule'),
+('API REST avec Flask');
+

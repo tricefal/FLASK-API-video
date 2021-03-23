@@ -133,3 +133,4 @@ dmypy.json
 .vscode/
 local-py-env/
 __pycache__/
+.env
