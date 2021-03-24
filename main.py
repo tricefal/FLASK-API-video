@@ -36,15 +36,9 @@ class Video_api(Resource):
         self.videos_args.add_argument(
             "title", type=str, help="Name of the video is required", required=True)
         self.videos_args.add_argument(
-<<<<<<< HEAD
-            "views", type=int, help="Name of the video is required", default=0)
-        self.videos_args.add_argument(
-            "likes", type=int, help="Name of the video is required", default=0)
-=======
             "views", type=int, help="Number of views of the video", default=0)
         self.videos_args.add_argument(
             "likes", type=int, help="Number of likes on the video", default=0)
->>>>>>> develop
         
 
     # CREATE
@@ -53,15 +47,6 @@ class Video_api(Resource):
 
     # READ
     @marshal_with(resource_fields)
-<<<<<<< HEAD
-    def get(self, video_id):
-        result = Video_info.query.filter_by(id=video_id).first()
-        return result
-        # return videos[video_id]
-
-    # UPDATE
-    def put(self, video_id):
-=======
     def get(self, video_id=0):
         if video_id:
             result = Video_info.query.filter_by(id=video_id).first()
@@ -76,7 +61,6 @@ class Video_api(Resource):
 
     # DELETE
     def delete(self, video_id):
->>>>>>> develop
         pass
         # videos[video_id] = request.form['likes']
         # return videos
@@ -86,11 +70,7 @@ class Video_api(Resource):
         pass
 
 
-<<<<<<< HEAD
-api.add_resource(Video_api, "/video/<int:video_id>")
-=======
 api.add_resource(Video_api, "/video/", "/video/<int:video_id>")
->>>>>>> develop
 
 if __name__ == "__main__":
     app.run(debug=True)
